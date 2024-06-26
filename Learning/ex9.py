@@ -19,3 +19,4 @@ class multifilter:
             neg = len(self.funcs) - pos
             if self.judge(pos, neg):
                 yield item
+                
